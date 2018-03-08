@@ -24,6 +24,10 @@ font-family: 'Meddon', cursive;
   width:100%;
   height:100%;
 }
+
+.carousel-caption .custom-carousel-caption {
+  margin-top: 200px !important;
+}
 .heart {
   color: #F8BAEA;
 }
