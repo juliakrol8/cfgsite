@@ -1,3 +1,14 @@
+.navbar-inverse {
+  background-color: rgb(22, 23, 23);
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #F8BAEA;
+}
 * {
   font-size: 16px;
   font-family: serif;
@@ -39,11 +50,11 @@ br {
   line-height: 200%;
 }
 
-ul {
+.london_food ul {
   list-style-type: none;
 }
 
-li {
+.london_food li {
   font-family: 'Lora', serif;
   font-weight: bold;
   color: #6666ff;
@@ -51,7 +62,7 @@ li {
 
 }
 
-ol li {
+.london_food ol li {
   font-size: 16px;
   font-family: serif;
   font-weight: bold;
@@ -59,7 +70,7 @@ ol li {
   margin: auto auto 10px auto;
 }
 
-ol{
+.london_food ol{
   list-style-position: outside;
   padding-left:0;
 }
@@ -152,7 +163,7 @@ ol li {
   margin: 55px auto auto 50px;
 }
 
-ul li {
+.london_food ul li {
   clear: both;
 }
 
