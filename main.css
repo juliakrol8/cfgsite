@@ -163,6 +163,7 @@ font-weight: bold;
   color: white;
   font-family: 'Lora', serif;
 }
+
 @media (max-width: 500px) {
   .item img {
   min-height: 175px;
