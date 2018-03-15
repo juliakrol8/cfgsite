@@ -31,6 +31,15 @@ font-family: 'Meddon', cursive;
 .heart {
   color: #F8BAEA;
 }
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
 .carousel {
 
    max-height: 490px;
@@ -45,6 +54,7 @@ font-family: 'Meddon', cursive;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
+  font-family: 'Meddon', cursive;
 }
 .about p{
   text-align: justify;
@@ -65,6 +75,13 @@ font-family: 'Meddon', cursive;
 vertical-align: middle;
 line-height: 200px;
 font-size: 20px;
+font-weight: bold;
+}
+.col-sm-4:hover {
+    opacity: 0.3;
+}
+.col-sm-4 a:hover {
+    color: #F8BAEA;
 }
 .hey {
   margin-bottom: 50px;
@@ -73,10 +90,8 @@ font-size: 20px;
   background-image: url("https://cdn.londonandpartners.com/asset/trafalgar-square-2c4ac9626a4fcce79cc7cbd8c4c30642.jpg");
   background-size: cover;
   }
-#see a{
-  color: white;
-}
-#food a{
+
+#pic2 a{
   color: white;
 }
 #culture {
@@ -102,13 +117,53 @@ font-size: 20px;
         background-size: cover;
         }
 .contact {
-  height: 300px;
-  max-height: 300px;
+  height: 420px;
+  max-height: 420px;
   background-color: rgb(22, 23, 23);
   margin-bottom: 0px;
 }
-
 .contact h2 {
-  vertical-align: middle;
-  line-height: 300px;
+  font-size: 45px;
+  font-family: 'Meddon', cursive;
+  color: #e6e8ed;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+#news {
+  padding-top: 40px;
+}
+.contact ul {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+}
+
+.social li{
+  display: inline-block;
+}
+.fb {
+  height: 40px;
+  width: 40px;
+  background-image: url(Pictures/facebook.png);
+  background-size: contain;
+}
+
+.twitter {
+  height: 40px;
+  width: 40px;
+  background-image: url(Pictures/twitter.png);
+  background-size: contain;
+}
+
+.instagram {
+  height: 40px;
+  width: 40px;
+  background-image: url(Pictures/instagram.png);
+  background-size: contain;
+}
+.contact p {
+  font-size: 13.5px;
+  color: white;
+  font-family: 'Lora', serif;
 }
