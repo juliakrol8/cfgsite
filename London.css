@@ -238,6 +238,7 @@ table {
 td {
   text-align: center;
   vertical-align: bottom;
+  height: 200px;
 }
 
 .cont {
@@ -248,7 +249,7 @@ td {
 
 .img_table {
   width: 350px;
-  height: auto;
+  height: 200px;
 }
 
 .overlay {
