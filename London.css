@@ -62,7 +62,7 @@ br {
 
 }
 
-.london_food ol li {
+ ol li {
   font-size: 16px;
   font-family: serif;
   font-weight: bold;
@@ -70,7 +70,7 @@ br {
   margin: auto auto 10px auto;
 }
 
-.london_food ol{
+ ol{
   list-style-position: outside;
   padding-left:0;
 }
